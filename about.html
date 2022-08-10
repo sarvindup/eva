@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eva-2.css">
+    <script src="https://kit.fontawesome.com/755660829e.js" crossorigin="anonymous"></script>
+    <title>Eva Dreams | Online Shopping</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav>
+    <div class="container navbar">
+      <div class="logo">
+        <a href="">EVA DREAMS</a>
+      </div>
+      <div class="menu">
+        <input type="checkbox" id="checking">
+        <label for="checking">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><input type="text" placeholder="Search Items"></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="cart.html">Shopping Bag</a></li>
+          <li><a href="login .html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Start-->
+  <div class="title-about">
+    <h1>About Us</h1>
+    <p>Eva Dreams is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine, which displays the same product's availability and pricing at different e-retailers. As of 2020, customers can shop online using a range of different hoodies and jeans, Shirts Combo Items and T-shirt</p>
+    <img src="img/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg" width="300">
+  </div>
+  <!--end-->  
+  <!--Start-->
+  <!--end-->  
+  <!--Start-->
+  <!--end-->  
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+  <!--Start-->
+  <!--end-->
+<footer>
+  <div class="footer-1">
+    <p>Address</p>
+    <h3>Eva Dreams</h3>
+    <h4>946 Park Ave</h4>
+    <h5 class="footer-h5"> New York, NY 10021</h5>
+    <div class="footer-box">
+      <p>office@indigo.com <br> (445) 932 459 934</p>
+    </div>
+  </div>
+  <div class="footer-2">
+    <p>CUSTOMER SERVICE</p>
+    <ul>
+      <li><a href="">About us</a></li>
+      <li><a href="">Money Back qurantee</a></li>
+      <li><a href="">Help Centre</a></li>
+      <li><a href="">Delivery</a></li>
+      <li><a href="">Payment</a></li>
+    </ul>
+    <p>ACCOUNT</p>
+    <ul>
+      <li><a href="">Login</a></li>
+      <li><a href="">Register</a></li>
+      <li><a href="">My Account</a></li>
+      <li><a href="">Logout</a></li>
+    </ul>
+  </div>
+  <div class="footer-last">
+    <p>FOLLOW US</p>
+    <div class="search">
+      <input type="text" placeholder="Enter Your Email">
+      <div class="bi bi-search">
+      </div>
+    </div>
+  </div>
+  <div class="footer-icon">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  <div class="footer-3">
+    <h1>Copyright 2022 Eva Dreams </h1>
+    <h2> All rights reserved</h2>
+  </div>
+</footer>
+</body>
+</html>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>

@@ -1,0 +1,118 @@
+@media(max-width:900px){
+    .cart-box{
+        text-align: center;
+        border-bottom: 1px solid #999;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+    button{
+        border-radius: 10px;
+    }
+    .cart-box h1{
+        font-size: 30px;
+        color: #444;
+        font-weight: lighter;
+    }
+    .cart-title-price-text{
+        font-weight: 900;
+    }
+    .cart-detail p{
+        font-weight: lighter;
+    }
+    .cart-detail{
+        margin-top: 10px;
+        margin-left: 125px;
+        display: flex;
+        text-align: center;
+    }
+    .cart-1{
+        margin-top: 20px;
+    }
+    .cart-1 p{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .cart-2{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .cart-2 h1{
+        color: #222;
+        font-size: 20px;
+    }
+    .cart-3{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 30px;
+    }
+    .cart-3 p{
+        color: #444;
+    }
+    .cart-3 h4{
+        font-weight: lighter;
+        padding-left: 190px;
+    }
+    .cartr-4{
+        display: flex;
+        margin-top: 15px;
+    }
+    .cartr-4 h5{
+        color: #444;
+        padding-left: 30px;
+    }
+    .cartr-4 h4{
+        font-weight: lighter;
+        padding-left: 77px;
+    }
+    .price{
+        margin-left: 160px;
+    }
+    .cart-5{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .cart-5 h3{
+        color: #444;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .cart-5 h4{
+        color: #444;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+    .cart-6{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .cart-6 h3{
+        color: #444;
+        font-weight: lighter;
+    }
+    .cart-6 h3 i{
+        color: rgb(250, 56, 56);
+    }
+    .cart-6 img{
+        margin-top: 20px;
+        cursor: auto;
+    }
+    .cart-7{
+        margin-top: 10px;
+    }
+    .cart-7 h4{
+        font-size: 13px;
+        color: #444;
+        font-weight: lighter;
+    }
+    .cart-7 h5{
+        color: #999;
+        font-weight: 13px;
+        margin-top: 5px;
+        font-weight: lighter;
+    }
+    .cart-7 p{
+        margin-top: 5px;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+}

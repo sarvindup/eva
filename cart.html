@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eva-2.css">
+    <script src="https://kit.fontawesome.com/755660829e.js" crossorigin="anonymous"></script>
+    <title>Eva Dreams | Online Shopping</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav>
+    <div class="container navbar">
+      <div class="logo">
+        <a href="">EVA DREAMS</a>
+      </div>
+      <div class="menu">
+        <input type="checkbox" id="checking">
+        <label for="checking">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><input type="text" placeholder="Search Items"></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="cart.html">Shopping Bag</a></li>
+          <li><a href="login .html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="cart-box">
+    <h1>Bag</h1>
+    <div class="cart-detail">
+        <p>0 Items |</p>
+        <p class="cart-title-price-text">₹0.00</p>
+    </div>
+  </div>
+  <div class="cart-1">
+    <p>There No Items In Your Bag</p>
+  </div>
+  <div class="cart-2">
+    <h1>Summary</h1>
+  </div>
+  <div class="cart-3">
+    <p>Subtotal <i class="bi bi-question-circle-fill"></i></p>
+    <h4>₹0.00</h4>
+  </div>
+  <div class="cartr-4">
+    <h5>Estimated Delivery & Handling</h5>
+    <h4>₹0.00</h4>
+  </div>
+  <div class="cartr-4">
+    <h5>Total</h5>
+    <h4 class="price">₹0.00</h4>
+  </div>
+  <div class="cart-5">
+    <div class="cart-5-5">
+        <h3>Favourites</h3>
+        <h4>Want To View Your Favourites?<a href="">Join us </a>or <a href="">Sign In</a></h4>
+    </div>
+  </div>
+  <div class="cart-6">
+    <h3>You Might Also Like <i class="bi bi-heart-fill"></i></h3>
+    <div>
+        <img src="product img/10da3c91-9deb-4264-ba81-1e6b7a5ccc68.webp" width="175">
+    </div>
+    <div class="cart-7">
+        <h4>Air Jordan 1 Zoom cmff</h4>
+        <h5>Shoes</h5>
+        <p>₹12.999</p>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-1">
+      <p>Address</p>
+      <h3>Eva Dreams</h3>
+      <h4>946 Park Ave</h4>
+      <h5 class="footer-h5"> New York, NY 10021</h5>
+      <div class="footer-box">
+        <p>office@indigo.com <br> (445) 932 459 934</p>
+      </div>
+    </div>
+    <div class="footer-2">
+      <p>CUSTOMER SERVICE</p>
+      <ul>
+        <li><a href="">About us</a></li>
+        <li><a href="">Money Back qurantee</a></li>
+        <li><a href="">Help Centre</a></li>
+        <li><a href="">Delivery</a></li>
+        <li><a href="">Payment</a></li>
+      </ul>
+      <p>ACCOUNT</p>
+      <ul>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+        <li><a href="">My Account</a></li>
+        <li><a href="">Logout</a></li>
+      </ul>
+    </div>
+    <div class="footer-last">
+      <p>FOLLOW US</p>
+      <div class="search">
+        <input type="text" placeholder="Enter Your Email">
+        <div class="bi bi-search">
+        </div>
+      </div>
+    </div>
+    <div class="footer-icon">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    <div class="footer-3">
+      <h1>Copyright 2022 Eva Dreams </h1>
+      <h2> All rights reserved</h2>
+    </div>
+  </footer>
+</body>
+</html>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>

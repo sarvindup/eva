@@ -1,0 +1,25 @@
+@media(max-width:900px){
+    .title-about{
+        height: 600px;
+        color: white;
+        background-color: #444;
+    }
+    .title-about h1{
+        position: absolute;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .title-about p{
+        position: absolute;
+        width: 310px;
+        margin-left: 30px;
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .title-about img{
+        margin-top: 370px;
+        margin-left: 30px;
+        cursor: auto;
+    }
+}
